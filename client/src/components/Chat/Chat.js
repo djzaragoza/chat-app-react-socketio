@@ -9,7 +9,7 @@ import RoomData from './RoomData/RoomData';
 
 import './Chat.css';
 
-const chat = () => {
+const Chat = () => {
    const history = useHistory();
    const { username, room } = useParams();
    const { users, messages, sendUserMessage, error } = useSocket({
